@@ -59,7 +59,9 @@ class Device(DataClassORJSONMixin):
         metadata=field_options(alias="blocksIncomingConnections")
     )
     client_version: str = field(metadata=field_options(alias="clientVersion"))
-    connected_to_control: bool = field(metadata=field_options(alias="connectedToControl"))
+    connected_to_control: bool = field(
+        metadata=field_options(alias="connectedToControl")
+    )
     device_id: str = field(metadata=field_options(alias="id"))
     hostname: str
     is_external: bool = field(metadata=field_options(alias="isExternal"))
