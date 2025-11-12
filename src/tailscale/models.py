@@ -84,7 +84,7 @@ class Device(DataClassORJSONMixin):
         default_factory=list, metadata=field_options(alias="enabledRoutes")
     )
     expires: datetime | None = None
-    isEphemeral: bool | None = field(
+    is_ephemeral: bool | None = field(
         default=None,
         metadata=field_options(alias="isEphemeral"),
     )
