@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tailscale-fixed"
-version = "0.7.0"
+version = "0.7.1"
 description = "Asynchronous client for the Tailscale API. [[[ This is a fork, that contains the unmerged fixes from the original repo. ]]]"
 authors = ["Franck Nijhof <opensource@frenck.dev>"]
 maintainers = ["Laszlo Magyar <lmagyar1973@gmail.com>"]
@@ -33,7 +33,7 @@ orjson = ">=3.9.8"
 
 [tool.poetry.urls]
 "Bug Tracker" = "https://github.com/frenck/python-tailscale/issues"
-Changelog = "https://github.com/frenck/python-tailscale/releases"
+Changelog = "https://github.com/lmagyar/python-tailscale/releases"
 
 [tool.poetry.group.dev.dependencies]
 aresponses = "3.0.0"

@@ -14,10 +14,6 @@ from mashumaro.mixins.orjson import DataClassORJSONMixin
 class ClientSupports(DataClassORJSONMixin):
     """Object holding Tailscale device information."""
 
-    hair_pinning: bool | None = field(
-        default=None,
-        metadata=field_options(alias="hairPinning"),
-    )
     ipv6: bool | None = None
     pcp: bool | None = None
     pmp: bool | None = None
@@ -59,7 +55,9 @@ class Device(DataClassORJSONMixin):
         metadata=field_options(alias="blocksIncomingConnections")
     )
     client_version: str = field(metadata=field_options(alias="clientVersion"))
-    connected_to_control: bool = field(metadata=field_options(alias="connectedToControl"))
+    connected_to_control: bool = field(
+        metadata=field_options(alias="connectedToControl")
+    )
     device_id: str = field(metadata=field_options(alias="id"))
     hostname: str
     is_external: bool = field(metadata=field_options(alias="isExternal"))
@@ -84,7 +82,7 @@ class Device(DataClassORJSONMixin):
         default_factory=list, metadata=field_options(alias="enabledRoutes")
     )
     expires: datetime | None = None
-    isEphemeral: bool | None = field(
+    is_ephemeral: bool | None = field(
         default=None,
         metadata=field_options(alias="isEphemeral"),
     )
