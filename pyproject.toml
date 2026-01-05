@@ -8,7 +8,7 @@ license = "MIT"
 readme = "README.md"
 homepage = "https://github.com/lmagyar/python-tailscale"
 repository = "https://github.com/lmagyar/python-tailscale"
-documentation = "https://github.com/frenck/python-tailscale"
+documentation = "https://github.com/lmagyar/python-tailscale"
 keywords = ["tailscale", "vpn", "wireguard", "api", "async", "client"]
 classifiers = [
   "Development Status :: 5 - Production/Stable",
@@ -32,7 +32,7 @@ mashumaro = ">=3.10"
 orjson = ">=3.9.8"
 
 [tool.poetry.urls]
-"Bug Tracker" = "https://github.com/frenck/python-tailscale/issues"
+"Bug Tracker" = "https://github.com/lmagyar/python-tailscale/issues"
 Changelog = "https://github.com/lmagyar/python-tailscale/releases"
 
 [tool.poetry.group.dev.dependencies]
