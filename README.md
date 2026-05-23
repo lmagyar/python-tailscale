@@ -1,3 +1,8 @@
+
+# DEPRECATED
+
+---
+
 # Python: Asynchronous client for the Tailscale API
 
 [![GitHub Release][releases-shield]][releases]

@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "tailscale-fixed"
-version = "0.8.0"
-description = "Asynchronous client for the Tailscale API. [[[ This is a fork, that contains the unmerged fixes from the original repo. ]]]"
+version = "0.8.0.post0"
+description = "Asynchronous client for the Tailscale API. [[[ DEPRECATED - This is a fork, that contained the unmerged fixes from the original https://github.com/frenck/python-tailscale repo. ]]]"
 authors = ["Franck Nijhof <opensource@frenck.dev>"]
 maintainers = ["Laszlo Magyar <lmagyar1973@gmail.com>"]
 license = "MIT"
